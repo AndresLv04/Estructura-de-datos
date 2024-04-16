@@ -41,11 +41,15 @@ public class ArrayListExample {
                         break;
                     }
                     case 3: {
-                        // codigo
+                        System.out.println("Ingrese cadena a buscar");
+                        str = in.next();
+                        boolean esta = obj.contains(str);
                         break;
                     }
                     case 4: {
-                        // codigo
+                        System.out.println("Ingresa la letras");
+                        str = in.next();
+                        
                         break;
                     }
                     case 5: {
@@ -53,11 +57,13 @@ public class ArrayListExample {
                         break;
                     }
                     case 6: {
-                        // codigo
+                        System.out.println("Ingrese la pos para eliminar");
+                        i = in.nextInt();
+                        obj.remove(i);
                         break;
                     }
                     case 7: {
-                        // codigo
+                        Collections.sort(obj);
                         break;
                     }
                     case 8: {
